@@ -1,0 +1,59 @@
+{
+  "name": "alfred-nutile-inc/behat-base-install",
+  "description": "Base installer to work with behat editor",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alfred Nutile",
+      "email": "me@alfrednutile.info"
+    },
+    {
+      "name": "Nathan Kirschbaum",
+      "email": "nathan.kirschbaum@gmail.com"
+    }
+  ],
+  "require": {
+
+  },
+  "require-dev": {
+    "php": ">=5.4.0",
+    "symfony/translation": "2.5.x-dev",
+    "laracasts/testdummy": "~2.0",
+    "behat/behat": "2.5.*",
+    "behat/mink": "*",
+    "behat/mink-goutte-driver": "*",
+    "vlucas/phpdotenv": "1.0.6",
+    "behat/mink-selenium2-driver": "v1.2.0",
+    "behat/mink-extension": "1.3.3",
+    "fzaninotto/faker": "1.4.0",
+    "guzzlehttp/guzzle": "4.*",
+    "mockery/mockery": "0.9.*@dev",
+    "phpunit/phpunit": "~4.0",
+    "drupal/drupal-extension": "*",
+    "kirschbaum/drupal-behat-remote-api-driver": "0.0.*",
+    "phpunit/phpunit": "~3.0",
+    "mockery/mockery": "dev-master",
+    "php-vcr/php-vcr": "1.1.7",
+    "php-vcr/phpunit-testlistener-vcr": "dev-master",
+    "alnutile/business-selector-extension": "master"
+  },
+  "config": {
+    "bin-dir": "bin/"
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/acceptance/bootstrap"
+    ]
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "php setup/set_env.php"
+    ],
+    "post-update-cmd": [
+
+    ],
+    "post-create-project-cmd": [
+    ]
+  },
+  "minimum-stability": "dev"
+}
