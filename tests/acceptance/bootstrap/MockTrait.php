@@ -1,5 +1,6 @@
 <?php
 use Behat\Gherkin\Node\PyStringNode;
+use Laracasts\TestDummy\Factory;
 
 /**
  * Created by PhpStorm.
@@ -14,7 +15,8 @@ trait MockTrait {
     protected $model;
 
     /**
-     * @Given I mock :arg1 with properties:
+     * @Given I mock "([^"]*)" with properties:
+     * @Given /^I mock "([^"]*)" with properties:$/
      */
     public function iMockWithProperties($model, PyStringNode $properties)
     {
@@ -112,4 +114,20 @@ trait MockTrait {
             Factory::create($model, ['id' => $id]);
     }
 
+    /**
+     * @Given I clean out "([^"]*)" with id of "([^"]*)"
+     * @Given /^I clean out "([^"]*)" with id of "([^"]*)"$/
+     */
+    public function iCleanOutIdOf($model, $id)
+    {
+        try
+        {
+            if($results = $model::find($id))
+                $results->delete();
+        }
+        catch(\Exception $e)
+        {
+            $this->printDebug(sprintf("Could not find id %s using model %s", $id, $model));
+        }
+    }
 }

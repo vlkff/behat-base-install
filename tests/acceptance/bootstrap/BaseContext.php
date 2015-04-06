@@ -10,9 +10,11 @@ use Faker\Factory as Faker;
 use GuzzleHttp\Client;
 use OrangeDigital\BusinessSelectorExtension\Context\BusinessSelectorContext;
 use GuzzleHttp\Exception\BadResponseException;
+use Symfony\Component\Filesystem\Filesystem;
+use Symfony\Component\Finder\Finder;
 
 
-class BaseContext extends MinkContext {
+class BaseContext extends \BaseDrupalContext {
 
     use OauthHelper;
     use SeedHelper;
@@ -77,6 +79,17 @@ class BaseContext extends MinkContext {
     protected $asset_path;
     protected $asset_prefix;
 
+    /**
+     * @var Filesystem
+     */
+    protected $filesystem;
+
+    /**
+     * @var Finder
+     */
+    protected $finder;
+
+    protected $custom_files_path;
 
 
     public function __construct($parameters = [])
@@ -86,10 +99,16 @@ class BaseContext extends MinkContext {
         $this->client   = new Client($config);
         $this->parameters = $parameters;
         $this->setCredentials($parameters);
+        $this->useContext('BusinessSelectors', new BusinessSelectorContext($parameters));
+        $this->setCustomFilesPath(__DIR__ . '/../custom');
+        $this->filesystem   = new Filesystem();
+        $this->finder       = new Finder();
     }
 
+
+
     /**
-     * @Given I remove :arg1 of :arg2
+     * @Given I remove "([^"]*)" of "([^"]*)"
      */
     public function iRemove($model, $id)
     {
@@ -106,22 +125,6 @@ class BaseContext extends MinkContext {
         }
     }
 
-    //Given I clean out "App\User" with id of "foo-bar-foo-baz-person-make"
-    /**
-     * @Given I clean out :arg1 with id of :arg2
-     */
-    public function iCleanOutIdOf($model, $id)
-    {
-        try
-        {
-            if($results = $model::find($id))
-                $results->delete();
-        }
-        catch(\Exception $e)
-        {
-            $this->printDebug(sprintf("Could not find id %s using model %s", $id, $model));
-        }
-    }
 
 
     protected function setCredentials()
@@ -153,6 +156,42 @@ class BaseContext extends MinkContext {
         assertCount($arg, $this->scope_array['batch_parent_requests'][0]->batch_child_requests);
     }
 
+    /**
+     * @return mixed
+     */
+    public function getCustomFilesPath()
+    {
+        return $this->custom_files_path;
+    }
+
+    /**
+     * @param mixed $custom_files_path
+     */
+    public function setCustomFilesPath($custom_files_path)
+    {
+        $this->custom_files_path = $custom_files_path;
+    }
+
+    /**
+     * @return Finder
+     */
+    public function getFinder()
+    {
+        if($this->finder == null)
+            $this->setFinder();
+        return $this->finder;
+    }
+
+    /**
+     * @param Finder $finder
+     */
+    public function setFinder($finder = null)
+    {
+        if($finder == null)
+            $finder = new Finder();
+        $this->finder = $finder;
+    }
+
     protected function fixStepArgument($argument)
     {
         $arg = str_replace('\\"', '"', $argument);
@@ -163,19 +202,17 @@ class BaseContext extends MinkContext {
 
     protected function useSelector($item)
     {
-        $this->setUpSelector();
-        if($this->tokenSelector) {
-            $item = $this->tokenSelector->getSelectorFromString($item, false);
-        }
+        if($this->tokenSelector == null)
+            $this->setUpSelector();
+        $item = $this->tokenSelector->getSelectorFromString($item, false);
         return $item;
     }
 
-    protected function setUpSelector()
+    protected function setUpSelector($tokenSelector = null)
     {
-        if($this->getSubcontext('BusinessSelectors')) {
-            $this->tokenSelector = $this->getSubcontext('BusinessSelectors')->getSubcontext('UIBusinessSelector');
-        } else {
-            $this->tokenSelector = false;
-        }
+        if($tokenSelector == null)
+            $tokenSelector = $this->getSubcontext('BusinessSelectors')->getSubcontext('UIBusinessSelector');
+        $this->tokenSelector = $tokenSelector;
+        return $this;
     }
 }

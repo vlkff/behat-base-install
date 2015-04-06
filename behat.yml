@@ -16,7 +16,7 @@ default:
     context:
       parameters:
         base_url: https://www.alfrednutile.info/
-        asset_path: '/tests/acceptance/assets/'
+        asset_path: tests/acceptance/assets
     extensions:
       Behat\MinkExtension\Extension:
         goutte:
@@ -34,6 +34,16 @@ default:
         blackbox: ~
         api_driver: 'drupal_remote_api'
         default_driver: 'drupal_remote_api'
+        subcontexts:
+          paths:
+            - "tests/acceptance/custom"
+      OrangeDigital\BusinessSelectorExtension\Extension:
+        urlFilePath: /home/vagrant/Code/behat_base_installer/tests/acceptance/features/tokens/example_token.feature.default.token
+        selectorFilePath: /home/vagrant/Code/behat_base_installer/tests/acceptance/features/tokens/example_token.feature.default.token
+        assetPath: tests/acceptance/assets
+        timeout: 30
+        contexts:
+          UIBusinessSelector: null
 
 codeship_default:
   context:

@@ -1,4 +1,6 @@
 <?php
+use Behat\Gherkin\Node\PyStringNode;
+
 /**
  * Created by PhpStorm.
  * User: alfrednutile
@@ -35,7 +37,7 @@ trait ApiTrait {
      */
     public function iHaveThePayload(PyStringNode $requestPayload)
     {
-        $this->requestPayload = $this->checkForTokens($requestPayload);
+        $this->requestPayload = $this->fixStepArgument($requestPayload);
     }
 
 
@@ -47,7 +49,7 @@ trait ApiTrait {
     public function iRequest($httpMethod, $resource)
     {
         $this->resource = $resource;
-        $this->checkForAccessToken();
+        $this->checkForAccessTokenInUrl();
 
 
         $method = strtolower($httpMethod);
