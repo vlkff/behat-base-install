@@ -33,10 +33,6 @@ trait AuthHelpers {
     {
         if($username == false)
         {
-            if(!isset($this->parameters['basic_auth_username']) || !isset($this->parameters['basic_auth_username']))
-            {
-                throw new Exception("You need to set the basic_auth_username in behat.yml under parameters or pass it in here");
-            }
             $username = $this->userName;
             $password = $this->passWord;
         }

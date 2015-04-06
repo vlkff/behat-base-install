@@ -8,6 +8,7 @@ use Behat\Gherkin\Node\PyStringNode,
 use Behat\MinkExtension\Context\MinkContext;
 use Faker\Factory as Faker;
 use GuzzleHttp\Client;
+use Laracasts\TestDummy\Factory;
 use OrangeDigital\BusinessSelectorExtension\Context\BusinessSelectorContext;
 use GuzzleHttp\Exception\BadResponseException;
 use Symfony\Component\Filesystem\Filesystem;
@@ -90,6 +91,11 @@ class BaseContext extends \BaseDrupalContext {
     protected $finder;
 
     protected $custom_files_path;
+
+    /**
+     * @var Factory
+     */
+    protected $factory;
 
 
     public function __construct($parameters = [])
@@ -191,6 +197,8 @@ class BaseContext extends \BaseDrupalContext {
             $finder = new Finder();
         $this->finder = $finder;
     }
+
+
 
     protected function fixStepArgument($argument)
     {

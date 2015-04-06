@@ -1,4 +1,4 @@
-@smoke
+@wip
 Feature: Reset Mock Data
   I should be able to reset mock data
   As a tester
@@ -6,10 +6,9 @@ Feature: Reset Mock Data
 
 
   Background: Login
-    Given I do basic auth on behat
+    Given I do basic auth
 
   Scenario: Update Mock
-    Given I reset mock data
     Given I clean out "App\User" with id of "mock-dmp-1"
     Given I mock "App\User" with properties:
     """

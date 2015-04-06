@@ -100,10 +100,23 @@ trait MockTrait {
     }
 
     /**
-     * @Given /^I reset mock data$/
+     * @return Factory
      */
-    public function iResetMockData() {
-        $this->getFactory()->type('mock')->reset();
+    public function getFactory()
+    {
+        if($this->factory == null)
+            $this->setFactory();
+        return $this->factory;
+    }
+
+    /**
+     * @param Factory $factory
+     */
+    public function setFactory($factory = null)
+    {
+        if($factory == null)
+            $factory = new Factory();
+        $this->factory = $factory;
     }
 
     /**

@@ -25,15 +25,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MockTrait.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/acceptance/bootstrap/MockTrait.php">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30495554" vertical-offset="156" max-vertical-offset="3036">
-              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-              <folding>
-                <element signature="e#6#42#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.30867347" vertical-offset="0" max-vertical-offset="2178">
+              <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+              <folding />
             </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -56,10 +57,8 @@
         <option value="$PROJECT_DIR$/tests/acceptance/bootstrap/WindowTraits.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/bootstrap/SeederTrait.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/bootstrap/FeatureContext.php" />
-        <option value="$PROJECT_DIR$/tests/acceptance/bootstrap/AuthHelpers.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/features/example_faker.feature" />
         <option value="$PROJECT_DIR$/tests/acceptance/features/example_token.feature" />
-        <option value="$PROJECT_DIR$/tests/acceptance/features/example_mockery.feature" />
         <option value="$PROJECT_DIR$/tests/acceptance/features/example_env_file.feature" />
         <option value="$PROJECT_DIR$/env.example" />
         <option value="$PROJECT_DIR$/tests/acceptance/bootstrap/ApiTrait.php" />
@@ -71,9 +70,11 @@
         <option value="$PROJECT_DIR$/tests/acceptance/bootstrap/BaseDrupalContext.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/features/example_api_testing.feature" />
         <option value="$PROJECT_DIR$/tests/acceptance/features/example_oauth.feature" />
-        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/tests/acceptance/bootstrap/AuthHelpers.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/bootstrap/BaseContext.php" />
         <option value="$PROJECT_DIR$/tests/acceptance/bootstrap/MockTrait.php" />
+        <option value="$PROJECT_DIR$/tests/acceptance/features/example_mockery.feature" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -269,6 +270,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Assert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="behat_base_installer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="behat_base_installer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factories" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -749,42 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/bootstrap/AuthHelpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5498652" vertical-offset="1964" max-vertical-offset="3036">
-          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
-          <folding>
-            <marker date="1428313779000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder=" ..." />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder=" ..." />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder=" @hidden This will set authentication in a token ..." />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder=" ..." />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder=" Y would be the way to go up and down the page. A good default for X is 0 ..." />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder=" @Given /^there are (\d+) rows of &quot;([^&quot;]*)&quot;$/ ..." />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder=" @Then /^I log in as demo$/ ..." />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder=" @Then /^I log in$/ ..." />
-            <marker date="1428313779000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/acceptance/features/tokens/example_token.feature.default.token">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.035714287" vertical-offset="0" max-vertical-offset="1232">
@@ -1045,31 +1028,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1232">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/bootstrap/OauthHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37899917" vertical-offset="264" max-vertical-offset="2332">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding>
-            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder=" @Given I make an access token ..." />
-            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder=" @Given I make an access token using args &quot;([^&quot;]*)&quot; ..." />
-            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder=" POST needs this ..." />
-            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder=" @return mixed ..." />
-            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder=" @param mixed $access_token ..." />
-            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1716,42 +1674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/features/example_api_testing.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3014">
-          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding>
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Background: Login" />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: Get Site" />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: I should get one site via DMP id" />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: Get Site with Override" />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: Show Sites main urls are being overridden" />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: Get Site All eg does not consider user" />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: Get Site Using Pagination Page 2" />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: Get Site All eg does not consider user but can use pagination" />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: Can Create a Site" />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: Update or Create Override on Site" />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: Update a Site" />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/acceptance/features/example_custom_step.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28617886" vertical-offset="0" max-vertical-offset="615">
@@ -1776,21 +1698,6 @@
           <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
             <marker date="1428314828000" expanded="true" signature="-1:-1" placeholder="Scenario: Testing Faker Feature" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/acceptance/features/example_mockery.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51869917" vertical-offset="319" max-vertical-offset="1210">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <marker date="1428317076000" expanded="true" signature="-1:-1" placeholder="Background: Login" />
-            <marker date="1428317076000" expanded="true" signature="-1:-1" placeholder="Scenario: Update Mock" />
-            <marker date="1428317076000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428317076000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428317076000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428317076000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1844,67 +1751,217 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/bootstrap/OauthHelper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028061224" vertical-offset="0" max-vertical-offset="2156">
+        <state vertical-scroll-proportion="0.02706027" vertical-offset="0" max-vertical-offset="2332">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder=" @Given I make an access token ..." />
+            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder=" @Given I make an access token using args &quot;([^&quot;]*)&quot; ..." />
+            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder=" POST needs this ..." />
+            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder=" @return mixed ..." />
+            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder=" @param mixed $access_token ..." />
+            <marker date="1428320302000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/acceptance/bootstrap/BaseContext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3603936" vertical-offset="2237" max-vertical-offset="4642">
-          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.25215253" vertical-offset="3909" max-vertical-offset="4796">
+          <caret line="200" column="0" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
           <folding>
-            <marker date="1428323058000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder=" The current resource ..." />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder=" The request payload ..." />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder=" The Guzzle HTTP Response. ..." />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder=" The decoded response object. ..." />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder=" The current scope within the response payload ..." />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder=" @var \Faker\Generator ..." />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder=" @var Client ..." />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder=" @var Filesystem ..." />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder=" @var Finder ..." />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder=" @Given I remove &quot;([^&quot;]*)&quot; of &quot;([^&quot;]*)&quot; ..." />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder=" Prints beautified debug string. ..." />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder=" @Given /^parent results of batch is (\d+)$/ ..." />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder=" @return mixed ..." />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder=" @param mixed $custom_files_path ..." />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder=" @return Finder ..." />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder=" @param Finder $finder ..." />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1428323058000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323307000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder=" The current resource ..." />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder=" The request payload ..." />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder=" The Guzzle HTTP Response. ..." />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder=" The decoded response object. ..." />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder=" The current scope within the response payload ..." />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder=" @var \Faker\Generator ..." />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder=" @var Client ..." />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder=" @var Filesystem ..." />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder=" @var Finder ..." />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder=" @var Factory ..." />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder=" @Given I remove &quot;([^&quot;]*)&quot; of &quot;([^&quot;]*)&quot; ..." />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder=" Prints beautified debug string. ..." />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder=" @Given /^parent results of batch is (\d+)$/ ..." />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder=" @return mixed ..." />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder=" @param mixed $custom_files_path ..." />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder=" @return Finder ..." />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder=" @param Finder $finder ..." />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323307000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/factories/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="826">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/bootstrap/AuthHelpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3329298" vertical-offset="297" max-vertical-offset="2948">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <marker date="1428323215000" expanded="false" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder=" ..." />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder=" ..." />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder=" @hidden This will set authentication in a token ..." />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder=" ..." />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder=" Y would be the way to go up and down the page. A good default for X is 0 ..." />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder=" @Given /^there are (\d+) rows of &quot;([^&quot;]*)&quot;$/ ..." />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder=" @Then /^I log in as demo$/ ..." />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder=" @Then /^I log in$/ ..." />
+            <marker date="1428323215000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/acceptance/bootstrap/MockTrait.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30495554" vertical-offset="156" max-vertical-offset="3036">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.51291513" vertical-offset="2487" max-vertical-offset="3300">
+          <caret line="133" column="20" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
           <folding>
-            <element signature="e#6#42#0#PHP" expanded="true" />
+            <marker date="1428323539000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder=" @Given I mock &quot;([^&quot;]*)&quot; with properties: ..." />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder=" @return mixed ..." />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder=" @param mixed $fields ..." />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder=" @return mixed ..." />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder=" @param mixed $model ..." />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder=" @return Factory ..." />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder=" @param Factory $factory ..." />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder=" @Given /^I mock &quot;([^&quot;]*)&quot; with id &quot;([^&quot;]*)&quot;$/ ..." />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder=" @Given I clean out &quot;([^&quot;]*)&quot; with id of &quot;([^&quot;]*)&quot; ..." />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1428323539000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/features/example_mockery.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1188">
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding>
+            <marker date="1428323572000" expanded="true" signature="-1:-1" placeholder="Background: Login" />
+            <marker date="1428323572000" expanded="true" signature="-1:-1" placeholder="Scenario: Update Mock" />
+            <marker date="1428323572000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428323572000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428323572000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428323572000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/acceptance/features/example_api_testing.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18942189" vertical-offset="0" max-vertical-offset="3014">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Background: Login" />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: Get Site" />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: I should get one site via DMP id" />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: Get Site with Override" />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: Show Sites main urls are being overridden" />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: Get Site All eg does not consider user" />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: Get Site Using Pagination Page 2" />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: Get Site All eg does not consider user but can use pagination" />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: Can Create a Site" />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: Update or Create Override on Site" />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="Scenario: Update a Site" />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428322952000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30867347" vertical-offset="0" max-vertical-offset="2178">
+          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>

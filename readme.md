@@ -8,7 +8,8 @@ Run them all
 bin/behat --tags=~@wip
 ~~~
 
-@wip are test we use but will not work with this base install outside of our Laravel apps
+@wip are test we use but will not work with this base install outside of our Laravel apps we have made
+since they depend on that db etc. But are here to show how we use them.
 
 
 ### example_faker.feature
