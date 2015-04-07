@@ -8,6 +8,16 @@ just add to your composer.json
 "alfred-nutile-inc/behat-base-install": "dev-master"
 ~~~
 
+Then you can run BUT you can also set the environment variable `TEST_ROOT` to the absolute path to your app to help with setup `TEST_ROOT=/home/vagrant/Code/behat_base_installer`
+
+For example Laravel, Silex, Slim PHP etc all have vendor at the root of their application so if their app lived in `/foo/` then vendor would be `/foo/vendor`
+
+You can then set `TEST_ROOT=/foo/vendor` as the root. Or even easier you copy the env.example file to `/foo/.env` and set your settings in there then run the below command. 
+
+~~~
+php vendor/alfred-nutile-inc/behat-base-install/setup/setup.php
+~~~
+
 It will pull in all your behat, setup your folders and behat.yml file as well
 
 You will have a folder layout after this of
