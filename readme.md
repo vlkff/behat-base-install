@@ -1,3 +1,5 @@
+[ ![Codeship Status for alfred-nutile-inc/behat-base-install](https://codeship.com/projects/afe5d710-beea-0132-d199-020f906a5190/status?branch=master)](https://codeship.com/projects/72857)
+
 ## Install
 
 just add to your composer.json
