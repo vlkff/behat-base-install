@@ -1,0 +1,10 @@
+0.0.1
+---
+First go, works great for base installs but not enough testing yet for running inside vendor or other folders to do
+setup. After that all runs well.
+  * Behat and all steps we use
+  * Custom Step integration
+  * Drupal Rest API 
+  * Laravel Integrations
+  * Helps for Tokens, Faker, Oauth, Mocking, Seeding
+  
