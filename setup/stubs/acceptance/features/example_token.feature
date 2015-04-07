@@ -1,8 +1,8 @@
-@javascript
-Feature: Using Faker
-  So you can make emails, username etc on the fly
+@javascript @wip @need_2_get_working_on_codeship_works_locally
+Feature: Using Tokens
+  So a user can reuse a test
   As a tester
-  So I can fill in forms without repeat
+  Tokens can be used for different sites, etc
 
   Scenario: Your First Scenario
     Given I am on "/behat_testing.html"
