@@ -1,6 +1,0 @@
-APP_ENV=local
-EXAMPLE_FOO=bar
-ADMIN_PASSWORD=foo
-CLIENT_SECRET=bar
-CLIENT_ID=foo
-TEST_ROOT=/home/vagrant/Code/
