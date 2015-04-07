@@ -38,8 +38,8 @@ default:
           paths:
             - "tests/acceptance/custom"
       OrangeDigital\BusinessSelectorExtension\Extension:
-        urlFilePath: /home/vagrant/Code/behat_base_installer/tests/acceptance/features/tokens/example_token.feature.default.token
-        selectorFilePath: /home/vagrant/Code/behat_base_installer/tests/acceptance/features/tokens/example_token.feature.default.token
+        urlFilePath: tests/acceptance/features/tokens/example_token.feature.default.token
+        selectorFilePath: tests/acceptance/features/tokens/example_token.feature.default.token
         assetPath: tests/acceptance/assets
         timeout: 30
         contexts:
