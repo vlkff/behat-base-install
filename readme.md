@@ -62,8 +62,12 @@ But later you need to make a fork of the central repo, add your steps there and 
 @TODO how to put this in .gitignore but make a realistic workflow for teams.
   composer.json entry ?
 
+## Drupal Remote API
 
+The remote API driver extends the popular [Drupal Extention](https://github.com/jhedstrom/drupalextension) library to support
+running authenticated Behat tests against remote Drupal sites. Be sure to set the remote site credentials in the behat.yml file.
 
+See supported steps in [the example file](tests/acceptance/features/example_drupal_remote_api.feature).
 
 ## BaseURL Inside Versus Outside VM
 
