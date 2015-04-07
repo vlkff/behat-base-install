@@ -34,8 +34,6 @@ default:
         blackbox: ~
         api_driver: 'drupal_remote_api'
         default_driver: 'drupal_remote_api'
-        login_username: 'username'
-        login_password: 'password'
         subcontexts:
           paths:
             - "tests/acceptance/custom"
