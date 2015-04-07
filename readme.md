@@ -50,6 +50,11 @@ See more about that in `example_oauth.feature`
 This test will show how you can test system that use oauth and how to also use the .env file.
 For example `ADMIN_PASS` can be pulled from this file and in BehatEditor it is part of your ENV settings.
 
+### example_drupal_remote_api.feature
+
+The remote API driver extends the popular [Drupal Extention](https://github.com/jhedstrom/drupalextension) library to support
+running authenticated Behat tests against remote Drupal sites. Be sure to set the remote site credentials in the behat.yml file.
+
 ## Including your custom steps
 
 The format here is that custom tests are grabbed from the git repo and branch they live on. So to work
@@ -61,13 +66,6 @@ But later you need to make a fork of the central repo, add your steps there and 
 
 @TODO how to put this in .gitignore but make a realistic workflow for teams.
   composer.json entry ?
-
-## Drupal Remote API
-
-The remote API driver extends the popular [Drupal Extention](https://github.com/jhedstrom/drupalextension) library to support
-running authenticated Behat tests against remote Drupal sites. Be sure to set the remote site credentials in the behat.yml file.
-
-See supported steps in [the example file](tests/acceptance/features/example_drupal_remote_api.feature).
 
 ## BaseURL Inside Versus Outside VM
 
