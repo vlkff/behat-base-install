@@ -1,4 +1,4 @@
-<?php
+<?php namespace AlfredNutileInc\BehatBaseInstaller\Helpers;
 /**
  * Created by PhpStorm.
  * User: alfrednutile

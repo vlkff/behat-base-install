@@ -43,11 +43,16 @@
   "autoload-dev": {
     "classmap": [
       "tests/acceptance/bootstrap"
-    ]
+    ],
+    "psr-4": {
+      "AlfredNutileInc\\BehatBaseInstaller\\": "src/"
+    }
   },
   "scripts": {
     "post-install-cmd": [
-      "php setup/set_env.php"
+      "php setup/set_env.php",
+      "php setup/tests_folder.php",
+      "php setup/example_custom_steps.php"
     ],
     "post-update-cmd": [
 

@@ -1,3 +1,30 @@
+## Install
+
+just add to your composer.json
+
+~~~
+"alfred-nutile-inc/behat-base-install": "dev-master"
+~~~
+
+It will pull in all your behat, setup your folders and behat.yml file as well
+
+You will have a folder layout after this of
+
+~~~
+tests/acceptance
+~~~
+
+In here you will have `bootstrap` folder.
+
+This will have the FeatureContext file for you to override many features that will not get overwritten the next time you update the library.
+
+You can also remove traits you do not want
+
+
+You will also have the `features` folder in there are many example tests.
+
+Running `bin/behat` will show you all of those working once you have Selenium setup (see notes below on that)
+
 ## Example Tests to Show How Things Work
 
 All of these are in the `tests/acceptance/features` folder.

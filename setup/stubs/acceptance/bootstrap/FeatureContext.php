@@ -1,10 +1,39 @@
 <?php
-
+use AlfredNutileInc\BehatBaseInstaller\Helpers\ApiTrait;
+use AlfredNutileInc\BehatBaseInstaller\Helpers\AuthHelpers;
+use AlfredNutileInc\BehatBaseInstaller\Helpers\BreakPointTrait;
+use AlfredNutileInc\BehatBaseInstaller\Helpers\CookieTrait;
+use AlfredNutileInc\BehatBaseInstaller\Helpers\IframeTrait;
+use AlfredNutileInc\BehatBaseInstaller\Helpers\MockTrait;
+use AlfredNutileInc\BehatBaseInstaller\Helpers\OauthHelper;
+use AlfredNutileInc\BehatBaseInstaller\Helpers\SeedHelper;
+use AlfredNutileInc\BehatBaseInstaller\Helpers\TokenFaker;
+use AlfredNutileInc\BehatBaseInstaller\Helpers\WindowTraits;
+use AlfredNutileInc\BehatBaseInstaller\BaseContext;
 use Behat\Mink\Exception\ExpectationException;
 use PHPUnit_Framework_Assert as PHPUnit;
 
 class FeatureContext extends BaseContext
 {
+    use OauthHelper;
+    use SeedHelper;
+    use TokenFaker;
+    use MockTrait;
+    use BreakPointTrait;
+    use WindowTraits;
+    use CookieTrait;
+    use IframeTrait;
+    use AuthHelpers;
+    use ApiTrait;
+
+    protected $parameters;
+    protected $tokenSelector;
+    protected $refresh_token;
+    protected $userName;
+    protected $passWord;
+    protected $userNameDemo;
+    protected $passWordDemo;
+
     protected $scope_array;
     protected $firstTestUrl;
 

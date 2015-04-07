@@ -1,4 +1,6 @@
-<?php
+<?php namespace AlfredNutileInc\BehatBaseInstaller;
+
+
 use Behat\Behat\Context\ClosuredContextInterface,
     Behat\Behat\Context\TranslatedContextInterface,
     Behat\Behat\Context\BehatContext,
@@ -17,24 +19,7 @@ use Symfony\Component\Finder\Finder;
 
 class BaseContext extends \BaseDrupalContext {
 
-    use OauthHelper;
-    use SeedHelper;
-    use TokenFaker;
-    use MockTrait;
-    use BreakPointTrait;
-    use WindowTraits;
-    use CookieTrait;
-    use IframeTrait;
-    use AuthHelpers;
-    use ApiTrait;
 
-    protected $parameters;
-    protected $tokenSelector;
-    protected $refresh_token;
-    protected $userName;
-    protected $passWord;
-    protected $userNameDemo;
-    protected $passWordDemo;
 
     /**
      * The current resource

@@ -1,4 +1,4 @@
-<?php
+<?php namespace AlfredNutileInc\BehatBaseInstaller\Helpers;
 use Behat\Gherkin\Node\PyStringNode;
 use Laracasts\TestDummy\Factory;
 
