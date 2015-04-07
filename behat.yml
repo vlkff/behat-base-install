@@ -64,6 +64,7 @@ codeship_default:
       selenium2:
         wd_host: "http://localhost:4444/wd/hub"
       base_url: 'https://www.alfrednutile.info/'
+      browser_name: firefox
 
 saucelabs:
   extensions:
