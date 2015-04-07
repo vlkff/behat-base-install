@@ -48,7 +48,7 @@ default:
 codeship_default:
   context:
     parameters:
-      base_url: http://localhost:8000
+      base_url: https://www.alfrednutile.info/
   paths:
       features: tests/acceptance/features/
       bootstrap: tests/acceptance/bootstrap/
@@ -63,7 +63,7 @@ codeship_default:
           ssl.certificate_authority: false
       selenium2:
         wd_host: "http://localhost:4444/wd/hub"
-      base_url: 'http://localhost:8000'
+      base_url: 'https://www.alfrednutile.info/'
       browser_name: chrome
 
 saucelabs:
