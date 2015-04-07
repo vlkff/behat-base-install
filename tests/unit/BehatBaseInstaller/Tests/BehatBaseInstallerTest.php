@@ -40,13 +40,34 @@ class BehatBaseInstallerTest extends \PHPUnit_Framework_TestCase{
     /**
      * @test
      */
+    public function assets_folder_exists()
+    {
+        $this->assertFileExists($this->path . 'acceptance/assets/.gitkeep');
+        $this->assertFileExists($this->path . 'factories/.gitkeep');
+    }
+
+    /**
+     * @test
+     */
+    public function custom_files_exists()
+    {
+        $files = ['example_foo_bar.behat.inc'];
+
+        foreach($files as $file)
+        {
+            $this->assertFileExists($this->path . 'acceptance/custom/' . $file);
+        }
+    }
+
+    /**
+     * @test
+     */
     public function bootstrap_exists()
     {
 
         $files = [
-            'BaseContext.php',
-            'BaseDrupalContext.php',
             'FeatureContext.php',
+            'BaseDrupalContext.php',
         ];
 
         foreach($files as $file)

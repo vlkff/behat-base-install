@@ -14,7 +14,14 @@ if ((!$loader = includeIfExists(__DIR__.'/../vendor/autoload.php')) && (!$loader
         'php composer.phar install'.PHP_EOL);
 }
 
-Dotenv::load(__DIR__ .'/../');
+try
+{
+    Dotenv::load(__DIR__ .'/../');
+}
+catch (\Exception $e)
+{
+    echo sprintf("****** Not required but the .env file as not found at %s *******\n", __DIR__ . '/../');
+}
 
 $loader->add('BehatBaseInstaller\Tests', __DIR__);
 

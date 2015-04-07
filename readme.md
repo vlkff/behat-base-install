@@ -25,6 +25,12 @@ You will also have the `features` folder in there are many example tests.
 
 Running `bin/behat` will show you all of those working once you have Selenium setup (see notes below on that)
 
+We made this to work with a standard PHP library where vendor folder is at the root of the app.
+
+If your site is in another folder then add to your .env file `TEST_ROOT`
+
+For example if you put `/home/vagrant/Code/foo` then the base tests folder will be be `/home/vagrant/Code/foo/tests`
+
 ## Example Tests to Show How Things Work
 
 All of these are in the `tests/acceptance/features` folder.
