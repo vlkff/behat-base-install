@@ -5,7 +5,7 @@ require_once __DIR__ . '/bootstrap.php';
 use Symfony\Component\Filesystem\Filesystem;
 
 if(!$base = getenv('TEST_ROOT'))
-    $base = __DIR__;
+    $base = __DIR__ . '/../';
 
 $file = new Filesystem();
 
