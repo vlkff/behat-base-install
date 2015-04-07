@@ -2,7 +2,10 @@
 
 try
 {
-    exec("cp env.example .env");
+    if(!file_exists(__DIR__.'/../.env'))
+    {
+        exec("cp env.example .env");
+    }
 }
 catch(\Exception $e)
 {
