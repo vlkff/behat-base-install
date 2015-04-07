@@ -49,8 +49,8 @@
     }
   },
   "scripts": {
-    "post-install-cmd": [
-
+    "pre-install-cmd": [
+      "mkdir -p tests/acceptance/bootstrap"
     ],
     "post-update-cmd": [
 
