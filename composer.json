@@ -13,9 +13,6 @@
     }
   ],
   "require": {
-
-  },
-  "require-dev": {
     "php": ">=5.4.0",
     "symfony/translation": "2.5.x-dev",
     "laracasts/testdummy": "~2.0",
