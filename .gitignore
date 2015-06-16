@@ -3,3 +3,4 @@ vendor
 tests/acceptance
 tests/factories
 .idea/*
+composer.lock
