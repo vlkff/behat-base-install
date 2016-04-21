@@ -126,9 +126,9 @@ class FeatureContext extends BaseContext
             }
         }
 
-        if(!$this->file->exists($path))
+        if(!$this->filesystem->exists($path))
         {
-            $this->file->mkdir($path);
+            $this->filesystem->mkdir($path);
         }
 
         $this->asset_path = $path;
