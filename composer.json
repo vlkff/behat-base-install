@@ -1,6 +1,6 @@
 {
-  "name": "alfred-nutile-inc/behat-base-install",
-  "description": "Base installer to work with behat editor",
+  "name": "vlkff/behat-base-install",
+  "description": "Fork of alfred-nutile-inc/behat-base-install. Base installer to work with behat editor.",
   "license": "MIT",
   "authors": [
     {
