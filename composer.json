@@ -27,7 +27,7 @@
     "mockery/mockery": "0.9.*@dev",
     "phpunit/phpunit": "~4.0",
     "drupal/drupal-extension": "*",
-    "kirschbaum/drupal-behat-remote-api-driver": "0.0.*",
+    "kirschbaum/drupal-behat-remote-api-driver": "0.0.2",
     "phpunit/phpunit": "~3.0",
     "mockery/mockery": "dev-master",
     "php-vcr/php-vcr": "1.1.7",
