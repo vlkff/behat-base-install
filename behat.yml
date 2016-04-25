@@ -1,6 +1,6 @@
-
+# behat.yml - Main Behat's configuration.
 imports:
-- conf/default.yml
-- conf/codeship_default.yml
-- conf/saucelabs.yml
-- tests/acceptance/custom/behat.yml
+- conf/default.yml # Imported default profile.
+- conf/codeship_default.yml # Imported codeship profile.
+- conf/saucelabs.yml # Imported saucelabs profile.
+- tests/acceptance/custom/behat.yml # Imported custom profile (note, it can overwrite default profile for specific project).
