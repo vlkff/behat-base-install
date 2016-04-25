@@ -1,0 +1,8 @@
+# Project specific behat configuration
+default:
+    context:
+      parameters:
+        base_url: 'https://www.alfrednutile.info/'
+    extensions:
+      Behat\MinkExtension\Extension:
+        base_url: 'https://www.alfrednutile.info/'

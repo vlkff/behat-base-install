@@ -1,0 +1,14 @@
+
+saucelabs:
+  extensions:
+    Behat\MinkExtension\Extension:
+      default_session: selenium2
+      selenium2:
+        browser: chrome
+        wd_host: 'foobar:bar@ondemand.saucelabs.com/wd/hub'
+        capabilities:
+          platform: 'Windows 8'
+          browser: chrome
+          version: '26'
+          name: 'Behat Base Install'
+          selenium-version: '2.43.0'
