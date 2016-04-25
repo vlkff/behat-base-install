@@ -1,0 +1,47 @@
+# Common behat configuration
+default:
+    filters:
+      tags: "~@wip"
+    formatter:
+            name:                       pretty
+            parameters:
+                decorated:              true
+                verbose:                false
+                time:                   true
+                language:               en
+                output_path:            null
+                multiline_arguments:    true
+    paths:
+        features: tests/acceptance/features/
+        bootstrap: tests/acceptance/bootstrap/
+    context:
+      parameters:
+        base_url: https://www.alfrednutile.info/
+        asset_path: tests/acceptance/assets
+    extensions:
+      Behat\MinkExtension\Extension:
+        goutte:
+          guzzle_parameters:
+            curl.options:
+              CURLOPT_SSL_VERIFYPEER: false
+              CURLOPT_CERTINFO: false
+              CURLOPT_TIMEOUT: 120
+            ssl.certificate_authority: false
+        selenium2:
+          wd_host: "http://selenium-server.dev:4444/wd/hub"
+        base_url: 'https://www.alfrednutile.info/'
+        browser_name: chrome
+      Kirschbaum\DrupalBehatRemoteAPIDriver\DrupalRemoteExtension:
+        blackbox: ~
+        api_driver: 'drupal_remote_api'
+        default_driver: 'drupal_remote_api'
+        subcontexts:
+          paths:
+            - "tests/acceptance/custom"
+      OrangeDigital\BusinessSelectorExtension\Extension:
+        urlFilePath: tests/acceptance/features/tokens/example_token.feature.default.token
+        selectorFilePath: tests/acceptance/features/tokens/example_token.feature.default.token
+        assetPath: tests/acceptance/assets
+        timeout: 30
+        contexts:
+          UIBusinessSelector: null
